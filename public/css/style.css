@@ -1,3 +1,4 @@
 img.image {
-    padding: 100px;
+/*    padding: 100px; */
+    max-width: 150px;
 }
