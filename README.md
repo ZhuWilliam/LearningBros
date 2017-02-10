@@ -1,10 +1,12 @@
-LearningBros Prototype (Tentative Title)
+LearningBros Prototype - UX 2 Learn
 ====
 
 An app that helps budding designers brainstorm and organize their thoughts.
 
-by:
-    William
-    Enrique
-    Pedro
-    Mohsin
+Design:
+Enrique
+Mohsin
+
+Development:
+William
+Pedro
