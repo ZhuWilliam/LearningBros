@@ -1,5 +1,4 @@
 /*
-
 YO FILL IN TEN WORDS
 <br><br>
 1:<input type="text"></input><br>
@@ -12,5 +11,13 @@ YO FILL IN TEN WORDS
 8:<input type="text"></input><br>
 9:<input type="text"></input><br>
 10:<input type="text"></input><br>
-
 */
+
+function stepThrough(step) {
+    /* TODO if user pick a step to skip to, change step to that */
+    
+    if(step == 0) {
+        
+    }
+    
+}
