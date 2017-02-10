@@ -17,7 +17,7 @@ function stepThrough(step) {
     /* TODO if user pick a step to skip to, change step to that */
     
     if(step == 0) {
-        
+        document.getElementById("content").innerHTML();
     }
     
 }
