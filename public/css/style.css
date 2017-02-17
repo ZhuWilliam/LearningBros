@@ -8,6 +8,10 @@
 .top-buffer {
     margin-top:22px;
 }
+/* back and continue are same width */
+.btn-primary-active { 
+    width: 100px;
+}
 
 /* The title "UX 2 Learn" now links back to the home page when clicked */
 a.home {
