@@ -14,3 +14,7 @@ a.home {
     color: #42f489;
     tex-decoration: none;
 }
+
+#content {
+    padding: 5%;
+}
