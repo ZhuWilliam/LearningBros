@@ -1,11 +1,17 @@
-
+<form action="/login" method="post">
 <br>
-Username: <input type="text"></input><br>
-Password: <input type="text"></input><br>
+<input type="text" name="username" placeholder="Username" required></input><br>
+<input type="password" name="passwd" placeholder="Password" required></input><br>
 <br>
 
-<!-- Logs in regardless, TODO? why is there even a login >.> -->
-<a href="page0" class="btn btn-primary">Login</a>
+{{#if failLogin}}
+<div class="alert alert-danger">
+    Bad login
+</div>
+{{/if}}
+
+<button type="submit" class="btn btn-primary">Login</button>
+</form>
 <br>
 <br>
 <br>
