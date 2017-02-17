@@ -40,6 +40,7 @@ app.get('/', page.view);
 app.get('/page:number', page.view);
 
 app.post('/login', page.login);
+app.post('/ux2update', page.ux2update);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

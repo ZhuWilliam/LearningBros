@@ -5,19 +5,10 @@ potential app designs that could make those activites more efficient.</p>
 
 <!-- how do get input and put into json or whatever >.> -->
 <form id="userbaseform">
-    <textarea cols="30" rows="12" id="userbasetext">
-    </textarea>
+    <textarea cols="30" rows="12" id="userbasetext">{{ ux2data.userbasetext }}</textarea>
 </form>
 
 <br>
 <br>
 <a href="page0" class="btn btn-primary btn-primary-active">Back</a>
-<a href="page2" class="btn btn-primary btn-primary-active" onclick="testjs()">Continue</a>
-
-<!-- test to see if input can be retrieved -->
-<script>
-    function testjs() {
-        var input = document.getElementById("userbasetext").value;
-        alert(input);
-    }
-</script>
+<button class="btn btn-primary btn-primary-active" onclick='upData("userbasetext", "page2")'>Continue</button>
