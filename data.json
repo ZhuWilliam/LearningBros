@@ -1,0 +1,36 @@
+{
+	"tasks": [
+		{
+            "id": "1",
+			"name": "USER BASE"
+		},
+		{
+            "id": "2",
+			"name": "NEEDFINDING"
+		},
+		{
+            "id": "3",
+			"name": "POINT OF VIEW"
+		},
+		{
+            "id": "5",
+			"name": "INSPIRATION BOARD"
+		},
+		{
+            "id": "4",
+			"name": "IDEATION"
+		},
+		{
+            "id": "6",
+			"name": "COMPETITIVE ANALYSIS"
+		},
+        {
+            "id": "7",
+			"name": "STORYBOARDING"
+		},
+    	{
+            "id": "8",
+			"name": "TESTING"
+		}
+	]
+}
