@@ -10,13 +10,28 @@
 }
 /* back and continue are same width */
 .btn-primary-active { 
-    width: 100px;
+    /* width: 110px; */
+    width: 10%;
 }
 
 /* The title "UX 2 Learn" now links back to the home page when clicked */
 a.home {
     color: #42f489;
     tex-decoration: none;
+}
+
+input.text-input {
+    border: 1px solid grey;
+    width: 35%;
+    margin: 0.5% 1%;
+}
+
+/* supposed to align the progress bar to the bottom. it looks ugly af. there is this weird div bar showing */
+div.progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%
 }
 
 #content {

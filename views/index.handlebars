@@ -1,16 +1,16 @@
 <form action="/login" method="post">
-<br>
-<input type="text" name="username" placeholder="Username" required></input><br>
-<input type="password" name="passwd" placeholder="Password" required></input><br>
-<br>
+    <br>
+    <input type="text" name="username" placeholder="Username" required></input><br>
+    <input type="password" name="passwd" placeholder="Password" required></input><br>
+    <br>
 
-{{#if failLogin}}
-<div class="alert alert-danger">
-    Bad login
-</div>
-{{/if}}
+    {{#if failLogin}}
+        <div class="alert alert-danger">
+            Bad login
+        </div>
+    {{/if}}
 
-<button type="submit" class="btn btn-primary">Login</button>
+    <button type="submit" class="btn btn-primary">Login</button>
 </form>
 <br>
 <br>
