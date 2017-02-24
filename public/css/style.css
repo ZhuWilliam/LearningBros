@@ -11,18 +11,18 @@
 /* back and continue are same width */
 .btn-primary-active { 
     /* width: 110px; */
-    width: 10%;
+/*    width: 10%;*/
 }
 
 /* The title "UX 2 Learn" now links back to the home page when clicked */
 a.home {
     color: #42f489;
-    tex-decoration: none;
+    text-decoration: none;
 }
 
 input.text-input {
     border: 1px solid grey;
-    width: 35%;
+    width: 59%;
     margin: 0.5% 1%;
 }
 
