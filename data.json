@@ -1,36 +1,36 @@
 {
-	"tasks": [
-		{
+    "tasks": [
+        {
             "id": "1",
-			"name": "USER BASE"
-		},
-		{
+            "name": "USER BASE"
+        },
+        {
             "id": "2",
-			"name": "NEEDFINDING"
-		},
-		{
+            "name": "NEEDFINDING"
+        },
+        {
             "id": "3",
-			"name": "POINT OF VIEW"
-		},
-		{
+            "name": "POINT OF VIEW"
+        },
+        {
             "id": "5",
-			"name": "INSPIRATION BOARD"
-		},
-		{
+            "name": "INSPIRATION BOARD"
+        },
+        {
             "id": "4",
-			"name": "IDEATION"
-		},
-		{
+            "name": "IDEATION"
+        },
+        {
             "id": "6",
-			"name": "COMPETITIVE ANALYSIS"
-		},
+            "name": "COMPETITIVE ANALYSIS"
+        },
         {
             "id": "7",
-			"name": "STORYBOARDING"
-		},
-    	{
+            "name": "STORYBOARDING"
+        },
+        {
             "id": "8",
-			"name": "TESTING"
-		}
-	]
+            "name": "TESTING"
+        }
+    ]
 }
