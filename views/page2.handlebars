@@ -5,7 +5,7 @@ specific user needs.</p>
 <p>(User needs are opportunities for design innovation that would enable
 computers to better support the activity you observed.)</p>
 <form>
-    1<input type="text" class="text-input"></input><br>
+    1<input type="text" class="text-input" id="needfindtext1"></input><br>
     2<input type="text" class="text-input"></input><br>
     3<input type="text" class="text-input"></input><br>
     4<input type="text" class="text-input"></input><br>
@@ -18,5 +18,6 @@ computers to better support the activity you observed.)</p>
     <br>
 
     <a href="page1" class="btn btn-primary btn-primary-active">Previous Step</a>
-    <a href="page3" class="btn btn-primary btn-primary-active">Next Step</a>
+    <button class="btn btn-primary btn-primary-active" onclick='upData("needfindtext1", "page3")'>Next Step</button>
+
 </form>
