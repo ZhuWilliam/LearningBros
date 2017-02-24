@@ -2,9 +2,9 @@
     min-height:70px;
 }
 .btncontent {
+    background-color: #00ff72;
     top: 50%;
     transform: translateY(20%);
-    background-color: #42f489;
 }
 .top-buffer {
     margin-top:22px;
@@ -17,7 +17,7 @@
 
 /* The title "UX 2 Learn" now links back to the home page when clicked */
 a.home {
-    color: #42f489;
+    color: #00ff72;
     text-decoration: none;
 }
 
