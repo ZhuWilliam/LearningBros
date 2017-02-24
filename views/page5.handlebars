@@ -7,12 +7,12 @@ reference it later.
 </p>
 
 <form id="inspirationform">
-    <textarea cols="30" rows="4" id="inspiration1text">{{ ux2data.inspiration1text }}</textarea>
+    <textarea cols="30" rows="4" id="inspirationtext1">{{ ux2data.inspirationtext1 }}</textarea>
     <br>
-    <textarea cols="30" rows="4" id="inspiration2text">{{ ux2data.inspiration2text }}</textarea>
+    <textarea cols="30" rows="4" id="inspirationtext2">{{ ux2data.inspirationtext2 }}</textarea>
     <br>
-    <textarea cols="30" rows="4" id="inspiration3text">{{ ux2data.inspiration3text }}</textarea>
+    <textarea cols="30" rows="4" id="inspirationtext3">{{ ux2data.inspirationtext3 }}</textarea>
 </form>
 
 <a href="page4" class="btn btn-primary btn-primary-active">Previous Step</a>
-<a href="page6" class="btn btn-primary btn-primary-active">Next Step</a>
+<button class="btn btn-primary btn-primary-active" onclick='upData("inspirationtext", 3, "page6")'>Next Step</button>

@@ -5,12 +5,12 @@
 </p>
 
 <form id="storyboardingform">
-    <textarea cols="30" rows="4" id="story1text">{{ ux2data.story1text }}</textarea>
+    <textarea cols="30" rows="4" id="storytext1">{{ ux2data.storytext1 }}</textarea>
     <br><br>
-    <textarea cols="30" rows="4" id="story2text">{{ ux2data.story2text }}</textarea>
+    <textarea cols="30" rows="4" id="storytext2">{{ ux2data.storytext2 }}</textarea>
     <br><br>
-    <textarea cols="30" rows="4" id="story3text">{{ ux2data.story3text }}</textarea>
+    <textarea cols="30" rows="4" id="storytext3">{{ ux2data.storytext3 }}</textarea>
 </form>
 
 <a href="page6" class="btn btn-primary btn-primary-active">Previous Step</a>
-<a href="page8" class="btn btn-primary btn-primary-active">Next Step</a>
+<button class="btn btn-primary btn-primary-active" onclick='upData("storytext", 3, "page8")'>Next Step</button>

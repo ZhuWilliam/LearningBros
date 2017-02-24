@@ -3,17 +3,19 @@
 <p>Write down 5-10 words that relate to your design idea or point 
 of view. These words can be anything - from similar designs to 
 feelings that the idea invokes.</p>
-<input type="text"></input><br>
-<input type="text"></input><br>
-<input type="text"></input><br>
-<input type="text"></input><br>
-<input type="text"></input><br>
-<input type="text"></input><br>
-<input type="text"></input><br>
-<input type="text"></input><br>
-<input type="text"></input><br>
-<input type="text"></input><br>
+<form>
+    <input type="text" id="ideatext1" value="{{ ux2data.ideatext1 }}"></input><br>
+    <input type="text" id="ideatext2" value="{{ ux2data.ideatext2 }}"></input><br>
+    <input type="text" id="ideatext3" value="{{ ux2data.ideatext3 }}"></input><br>
+    <input type="text" id="ideatext4" value="{{ ux2data.ideatext4 }}"></input><br>
+    <input type="text" id="ideatext5" value="{{ ux2data.ideatext5 }}"></input><br>
+    <input type="text" id="ideatext6" value="{{ ux2data.ideatext6 }}"></input><br>
+    <input type="text" id="ideatext7" value="{{ ux2data.ideatext7 }}"></input><br>
+    <input type="text" id="ideatext8" value="{{ ux2data.ideatext8 }}"></input><br>
+    <input type="text" id="ideatext9" value="{{ ux2data.ideatext9 }}"></input><br>
+    <input type="text" id="ideatext10" value="{{ ux2data.ideatext10 }}"></input><br>
+</form>
 <br>
 
 <a href="page3" class="btn btn-primary btn-primary-active">Previous Step</a>
-<a href="page5" class="btn btn-primary btn-primary-active">Next Step</a>
+<button class="btn btn-primary btn-primary-active" onclick='upData("ideatext", 10, "page5")'>Next Step</button>
