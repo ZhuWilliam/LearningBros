@@ -4,6 +4,7 @@
 .btncontent {
     top: 50%;
     transform: translateY(20%);
+    background-color: #42f489;
 }
 .top-buffer {
     margin-top:22px;
