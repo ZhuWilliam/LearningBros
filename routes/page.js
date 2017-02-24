@@ -22,12 +22,14 @@ exports.login = function(req, res){
 };
 
 exports.ux2update = function(req, res){
-    for (var key in req.body.stuff) {
-        if(req.body.stuff.hasOwnProperty(key)) {
-            ux2data[key] = req.body.stuff[key];
-            console.log("updating "+key+" with "+req.body.stuff[key]);
+    console.log(JSON.stringify(req.body.newData));
+    for (var key in req.body.newData) {
+        if(req.body.newData.hasOwnProperty(key)) {
+            ux2data[key] = req.body.newData[key];
+            console.log("updating "+key+" with "+req.body.newData[key]);
             console.log(key)
         }
     }
-    res.json({});
+    console.log(JSON.stringify(ux2data))
+    res.json({}); /* POST handler to update stuff returns nothing... */
 }

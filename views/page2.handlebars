@@ -7,17 +7,17 @@ computers to better support the activity you observed.)</p>
 <form>
     1<input type="text" class="text-input" id="needfindtext1" value="{{ ux2data.needfindtext1 }}"></input><br>
     2<input type="text" class="text-input" id="needfindtext2" value="{{ ux2data.needfindtext2 }}"></input><br>
-    3<input type="text" class="text-input"></input><br>
-    4<input type="text" class="text-input"></input><br>
-    5<input type="text" class="text-input"></input><br>
-    6<input type="text" class="text-input"></input><br>
-    7<input type="text" class="text-input"></input><br>
-    8<input type="text" class="text-input"></input><br>
-    9<input type="text" class="text-input"></input><br>
-    10<input type="text" class="text-input"></input><br>
+    3<input type="text" id="needfindtext3" class="text-input" value="{{ ux2data.needfindtext3 }}"></input><br>
+    4<input type="text" id="needfindtext4" class="text-input" value="{{ ux2data.needfindtext4 }}"></input><br>
+    5<input type="text" id="needfindtext5" class="text-input" value="{{ ux2data.needfindtext5 }}"></input><br>
+    6<input type="text" id="needfindtext6" class="text-input" value="{{ ux2data.needfindtext6 }}"></input><br>
+    7<input type="text" id="needfindtext7" class="text-input" value="{{ ux2data.needfindtext7 }}"></input><br>
+    8<input type="text" id="needfindtext8" class="text-input" value="{{ ux2data.needfindtext8 }}"></input><br>
+    9<input type="text" id="needfindtext9" class="text-input" value="{{ ux2data.needfindtext9 }}"></input><br>
+    10<input type="text" id="needfindtext10" class="text-input" value="{{ ux2data.needfindtext10 }}"></input><br>
     <br>
 
     <a href="page1" class="btn btn-primary btn-primary-active">Previous Step</a>
-    <button class="btn btn-primary btn-primary-active" onclick='upDataNoRedir("needfindtext1");upData("needfindtext2", "page3")'>Next Step</button>
+    <button class="btn btn-primary btn-primary-active" onclick='upData("needfindtext", 10, "page3")'>Next Step</button>
 
 </form>
