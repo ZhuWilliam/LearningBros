@@ -12,3 +12,7 @@ function upData(kw, n, nextpage) {
                 window.location.href = "/" + nextpage;
             });
 };
+
+function cookieClick() {
+    $("#hidden-info").attr("style", "visibility: visible");
+}
