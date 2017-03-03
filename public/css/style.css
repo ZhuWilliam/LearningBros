@@ -39,3 +39,12 @@ div.progress {
     padding-left: 5%;
     padding-right: 5%;
 }
+
+#hidden-info {
+    display: none;
+}
+
+a.btn-b {
+    width: 40%;
+    margin: 0 auto;
+}
