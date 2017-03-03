@@ -14,5 +14,5 @@ function upData(kw, n, nextpage) {
 };
 
 function cookieClick() {
-    $("#hidden-info").attr("style", "visibility: visible");
+    $("#hidden-info").attr("style", "display: inline");
 }
