@@ -8,7 +8,7 @@
 
 }
 .btncontent {
-    background-color: #00ff72;
+    /* background-color: #00ff72; */
     top: 50%;
     transform: translateY(20%);
 }
@@ -48,6 +48,7 @@ div.progress {
 
 #hidden-info {
     display: none;
+    font-style: italic;
 }
 
 a.btn-b {

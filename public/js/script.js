@@ -13,6 +13,6 @@ function upData(kw, n, nextpage) {
             });
 };
 
-function cookieClick() {
+function showHint() {
     $("#hidden-info").attr("style", "display: inline");
 }
