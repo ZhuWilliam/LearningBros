@@ -7,14 +7,22 @@
     min-height:70px;
 
 }
+
+/* home page button borders */
+.btn-default {
+    border-color: #428bca;
+}
+
 .btncontent {
     /* background-color: #00ff72; */
     top: 50%;
     transform: translateY(20%);
 }
+
 .top-buffer {
     margin-top:22px;
 }
+
 /* back and continue are same width */
 .btn-primary-active { 
     /* width: 110px; */
@@ -23,7 +31,8 @@
 
 /* The title "UX 2 Learn" now links back to the home page when clicked */
 a.home {
-    color: #00ff72;
+    /*color: #00ff72;*/
+    color: #428bca;
     text-decoration: none;
 }
 
@@ -54,4 +63,9 @@ div.progress {
 a.btn-b {
     width: 40%;
     margin: 0 auto;
+}
+
+/* final message on results page */
+.final-message {
+    line-height: 200%;
 }
