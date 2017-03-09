@@ -48,27 +48,27 @@ function closeNav() {
 /***************************************************************************/
 
 function A_begin() {
-    ga("send", "event", "pageA", "clickBegin");
+    ga("send", "event", "buttonClick", "A_clickBegin");
     console.log("A_begin");
     return true;
 }
 
 function A_skip() {
-    ga("send", "event", "pageA", "clickSkip");
+    ga("send", "event", "buttonClick", "A_clickSkip");
     openNav();
     console.log("A_skip");
     return true;
 }
 
 function B_choose() {
-    ga("send", "event", "pageB", "clickChoose");
+    ga("send", "event", "buttonClick", "B_clickChoose");
     openNav();
     console.log("B_choose");
     return true;
 }
 
 function B_start() {
-    ga("send", "event", "pageB", "clickStart");
+    ga("send", "event", "buttonClick", "B_clickStart");
     console.log("B_start");
     return true;
 }

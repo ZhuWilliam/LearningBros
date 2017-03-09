@@ -13,6 +13,9 @@ exports.view = function(req, res){
         if (number === "0" || number === "0_b") {
             ddata['containTrackCode'] = true;
         }
+        if (number === "0") {
+            ddata['isOrigPageZero'] = true;
+        }
         res.render('page'+number, ddata);
 
     } else {
