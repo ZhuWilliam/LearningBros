@@ -4,10 +4,17 @@
 
 var ux2data = {};
 
+ux2data['index_obj'] = require('../data.json');
+
 exports.view = function(req, res){
     var number = req.params.number;
     if (number) {
-        res.render('page'+number, {ux2data: ux2data});
+        var ddata = {ux2data: ux2data};
+        if (number === "0" || number === "0_b") {
+            ddata['containTrackCode'] = true;
+        }
+        res.render('page'+number, ddata);
+
     } else {
         res.render('index', {failLogin: false});
     }

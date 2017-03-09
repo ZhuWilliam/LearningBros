@@ -46,3 +46,29 @@ function closeNav() {
 }
 
 /***************************************************************************/
+
+function A_begin() {
+    ga("send", "event", "pageA", "clickBegin");
+    console.log("A_begin");
+    return true;
+}
+
+function A_skip() {
+    ga("send", "event", "pageA", "clickSkip");
+    openNav();
+    console.log("A_skip");
+    return true;
+}
+
+function B_choose() {
+    ga("send", "event", "pageB", "clickChoose");
+    openNav();
+    console.log("B_choose");
+    return true;
+}
+
+function B_start() {
+    ga("send", "event", "pageB", "clickStart");
+    console.log("B_start");
+    return true;
+}
