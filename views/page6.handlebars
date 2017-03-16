@@ -2,15 +2,22 @@
 
 <div id="hidden-info">
     <p>
-        Hint Placeholder
+        Competitive analysis is an assessment of the strengths and weaknesses of current and potential competitors. 
     </p>
 </div>
 
+
 <p>
-List a few attributes for each of your inspirations in the first 3 boxes. In
-the 4th box, compare the inspirations to see what attributes they are missing.
-What gaps can your app fill in?
+    It is important to understand which features are already used by apps like yours to develop an app that is innovative and distinguishable from the rest. This is done through competitive analysis. List a few features implemented in each of the inspirations you found in the last step.
 </p>
+
+<br>
+<a href="https://www.netdreams.co.uk/blog/competitor-analysis-in-website-design/" target="_blank" class="btn btn-primary btn-primary-active">Learn More</a>
+<a href="http://ixd.ucsd.edu/home/w17/assignments/examples/pdfs/competitive_analysis_example.pdf" target="_blank" class="btn btn-primary btn-primary-active">Examples</a>
+<br>
+<br>
+
+<p>List a few features implemented in each of the inspirations you found in the last step.</p>
 
 <form id="analysisform">
     <textarea cols="30" rows="4" id="analysistext1">{{ ux2data.analysistext1 }}</textarea>
@@ -18,9 +25,21 @@ What gaps can your app fill in?
     <textarea cols="30" rows="4" id="analysistext2">{{ ux2data.analysistext2 }}</textarea>
     <br><br>
     <textarea cols="30" rows="4" id="analysistext3">{{ ux2data.analysistext3 }}</textarea>
-    <br><br>
-    <textarea cols="30" rows="4" id="analysistext4">{{ ux2data.analysistext4 }}</textarea>
 </form>
 
-<a href="page5" class="btn btn-primary btn-primary-active">Previous Step</a>
-<button class="btn btn-primary btn-primary-active" onclick='upData("analysistext", 4, "page7")'>Next Step</button>
+<button class="btn btn-primary btn-primary-active" onclick="showNewSection()">Continue</button>
+
+<div id="new-section">
+    <p>
+        Now compare each inspiration to see what attributes are missing to get an idea of what unique features you might want to include to make your prototype stand apart. What areas aren't covered that you might want to focus on?
+    </p>
+
+    <p>List these ideas below.</p>
+
+    <form id="analysisform">
+        <textarea cols="30" rows="4" id="analysistext4">{{ ux2data.analysistext4 }}</textarea>
+    </form>
+
+    <a href="page5" class="btn btn-primary btn-primary-active">Previous Step</a>
+    <button class="btn btn-primary btn-primary-active" onclick='upData("analysistext", 4, "page7")'>Next Step</button>
+</div>

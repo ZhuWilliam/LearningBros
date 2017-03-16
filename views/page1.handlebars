@@ -3,20 +3,75 @@
 <div id="hidden-info">
     <p>
         Your user base is the type of person or persons that your idea is targeted towards.
-        <br>
-        Think of average everyday problems and consider alternative solutions to them through your idea.
     </p>
 </div>
 
-<p>Observe people partaking in various everyday activites and brainstorm
-potential app designs that could make those activites more efficient.</p>
+<p>As Yogi Berra said, you can observe a lot just by watching. Watching how people do things is a great way to learn their goals and values, and come up with design insight. The goal is to help you train your eyes and ears to use the world for inspiration, instead of your own thoughts and opinions. </p>
 
-<form id="userbaseform">
-    <textarea cols="30" rows="12" id="userbasetext1">{{ ux2data.userbasetext1 }}</textarea>
-</form>
+<button class="btn btn-primary btn-primary-active" onclick="showNewSection()">Continue</button>
 
+<div id="new-section">
+    <h4>Develop a Goal</h4>
 
-<br>
-<br>
-<a href="page0" class="btn btn-primary btn-primary-active">Previous Step</a>
-<button class="btn btn-primary btn-primary-active" onclick='upData("userbasetext", 1, "page2")'>Next Step</button>
+    <p>
+        The first order of business is deciding what you want your app to do.Is it going to be a notetaking tool? Is it going to help people budget their finances? Is it going to be a music player/chat service?
+    </p>
+
+    <p>Jot down a few ideas for what the overall goal of your app might be.</p>
+
+    <form id="userbaseform">
+    	<textarea cols="30" rows="12" id="userbasetext1">{{ ux2data.userbasetext1 }}</textarea>
+	</form>
+
+    <button class="btn btn-primary btn-primary-active" onclick="showNewSection()">Continue</button>
+</div>
+
+<div id="new-section">
+    <h4>Pick an Activity</h4>
+
+    <p>
+        Now that you have a goal in mind, think of a few everyday activities or situations related to that goal. How do people currently accomplish the goal your app is related to? In what situations might your app be useful?
+    </p>
+
+    <p>List 3 of these activities/situations.</p>
+
+    <form id="userbaseform">
+    	<textarea cols="30" rows="4" id="userbasetext1">{{ ux2data.userbasetext1 }}</textarea>
+	</form>
+
+	<form id="userbaseform">
+    	<textarea cols="30" rows="4" id="userbasetext1">{{ ux2data.userbasetext1 }}</textarea>
+	</form>
+
+	<form id="userbaseform">
+    	<textarea cols="30" rows="4" id="userbasetext1">{{ ux2data.userbasetext1 }}</textarea>
+	</form>
+
+    <button class="btn btn-primary btn-primary-active" onclick="showNewSection()">Continue</button>
+</div>
+
+<div id="new-section">
+    <h4>Observe</h4>
+
+    <p>
+        Choose one of the activities above and ask someone to complete that activity as realistically as possible while you watch. The goal is to observe that person and figure out where they succeeded, where they had trouble, and where the situation can be improved.
+    </p>
+
+    <br>
+    <h4>Video Example</h4>
+
+    <div class="videoWrapper">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/MjSNWhjDvQU" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+	<br>
+    <p>Jot down your observations below.</p>
+
+    <form id="userbaseform">
+    	<textarea cols="30" rows="12" id="userbasetext1">{{ ux2data.userbasetext1 }}</textarea>
+	</form>
+	
+    <a href="page0" class="btn btn-primary btn-primary-active">Previous Step</a>
+	<button class="btn btn-primary btn-primary-active" onclick='upData("userbasetext", 1, "page2")'>Next Step</button>
+</div>
+

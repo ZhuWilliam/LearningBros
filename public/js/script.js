@@ -15,22 +15,26 @@ function upData(kw, n, nextpage) {
 
 function showHint() {
     //$("#hidden-info").attr("style", "display: inline");
+    
     var hiddenHints = document.getElementById('hidden-info');
     if (hiddenHints.style.display === 'none') {
         hiddenHints.style.display = 'block';
     } else {
         hiddenHints.style.display = 'none';
     }
+    
 }
 
-function showSteps() {
-    //$("#hidden-steps").attr("style", "display: inline");
-    var hiddenSteps = document.getElementById('hidden-steps');
-    if (hiddenSteps.style.display === 'none') {
-        hiddenSteps.style.display = 'block';
+function showNewSection() {
+    $("#new-section").attr("style", "display: inline");
+    /*
+    var newSection = document.getElementById('new-section');
+    if (newSection.style.display === 'none') {
+        newSection.style.display = 'block';
     } else {
-        hiddenSteps.style.display = 'none';
+        newSection.style.display = 'none';
     }
+    */
 }
 
 /*********************** Home Screen Nav Button ****************************/
