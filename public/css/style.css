@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Baloo Bhaina';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Baloo Bhaina'), local('BalooBhaina-Regular'), url(/baloo.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
 .col-xs-6 {
     padding-left: 2.2% !important;
     padding-right: 2.2% !important;
@@ -52,6 +59,7 @@
 a.home {
     /*color: #00ff72;*/
     color: #428bca;
+    font-family: 'Baloo Bhaina', Fallback, sans-serif;
     text-decoration: none;
 }
 
@@ -72,6 +80,7 @@ div.progress {
 #content {
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 70px;
 }
 
 /* for the hints */
