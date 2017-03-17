@@ -38,7 +38,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
             <center>
                 <nav class="navbar navbar-default navbar-fixed-top">
                 {{#if isNotIndexPage}}
-                <div class="menuButton" onclick="openNav()">
+                <div class="menuButton" onclick="toggleNav()">
                     <div class="bar1"></div>
                     <div class="bar2"></div>
                     <div class="bar3"></div>
@@ -56,9 +56,6 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
                     <!----------------------------------- Screen Overlay ---------------------------------->
 
                     <div id="myNav" class="overlay">
-
-                        <!-- Button to close the overlay navigation -->
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
                         <!-- Overlay content -->
                         <div class="overlay-content">
