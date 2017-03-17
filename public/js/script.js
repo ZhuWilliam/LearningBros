@@ -13,32 +13,23 @@ function upData(kw, n, nextpage) {
             });
 };
 
-function showHint() {
-    //$("#hidden-info").attr("style", "display: inline");
-    
-    var hiddenHints = document.getElementById('hidden-info');
+/* for hints */
+function showHint(num) {
+    var hiddenHints = document.getElementById('hidden-info' + num);
     if (hiddenHints.style.display === 'none') {
         hiddenHints.style.display = 'block';
     } else {
         hiddenHints.style.display = 'none';
     }
-    
 }
 
-function showNewSection() {
-    $("#new-section").attr("style", "display: inline");
-    /*
-    var newSection = document.getElementById('new-section');
-    if (newSection.style.display === 'none') {
-        newSection.style.display = 'block';
-    } else {
-        newSection.style.display = 'none';
-    }
-    */
+/* for showing more of the page */
+function showPage(num) {
+    $("#hidden-cnt" + num).attr("style", "display: block");
+    $("#button-cnt" + num).attr("style", "display: none");
 }
 
 /*********************** Home Screen Nav Button ****************************/
-
 /* Open when someone clicks on the span element */
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
@@ -50,7 +41,6 @@ function closeNav() {
 }
 
 /***************************************************************************/
-
 
 /*************** Google Analytics ****************/
 function A_begin() {
@@ -83,7 +73,6 @@ function B_start() {
 function showMenu() {
     openNav();
 }
-
 
 
 var acc = document.getElementsByClassName("accordion");

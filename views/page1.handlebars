@@ -1,6 +1,6 @@
-<h3>Step 1: User Base <button onclick="showHint()" class="btn-hint">?</button></h3>
+<h3>Step 1: User Base <button onclick="showHint(1)" class="btn-hint">?</button></h3>
 
-<div id="hidden-info">
+<div class="hidden-info" id="hidden-info1">
     <p>
         Your user base is the type of person or persons that your idea is targeted towards.
     </p>
@@ -8,9 +8,10 @@
 
 <p>As Yogi Berra said, you can observe a lot just by watching. Watching how people do things is a great way to learn their goals and values, and come up with design insight. The goal is to help you train your eyes and ears to use the world for inspiration, instead of your own thoughts and opinions. </p>
 
-<button class="btn btn-primary btn-primary-active" onclick="showNewSection()">Continue</button>
+<button class="btn btn-primary btn-primary-active" id="button-cnt1" onclick="showPage(1)">Continue</button>
 
-<div id="new-section">
+<div class="hidden-cnt" id="hidden-cnt1">
+    <hr>
     <h4>Develop a Goal</h4>
 
     <p>
@@ -23,10 +24,11 @@
     	<textarea cols="30" rows="12" id="userbasetext1">{{ ux2data.userbasetext1 }}</textarea>
 	</form>
 
-    <button class="btn btn-primary btn-primary-active" onclick="showNewSection()">Continue</button>
+    <button class="btn btn-primary btn-primary-active" id="button-cnt2" onclick="showPage(2)">Continue</button>
 </div>
 
-<div id="new-section">
+<div class="hidden-cnt" id="hidden-cnt2">
+    <hr>
     <h4>Pick an Activity</h4>
 
     <p>
@@ -36,21 +38,22 @@
     <p>List 3 of these activities/situations.</p>
 
     <form id="userbaseform">
-    	<textarea cols="30" rows="4" id="userbasetext1">{{ ux2data.userbasetext1 }}</textarea>
+    	<textarea cols="30" rows="4" id="userbasetext2">{{ ux2data.userbasetext2 }}</textarea>
 	</form>
 
 	<form id="userbaseform">
-    	<textarea cols="30" rows="4" id="userbasetext1">{{ ux2data.userbasetext1 }}</textarea>
+    	<textarea cols="30" rows="4" id="userbasetext3">{{ ux2data.userbasetext3 }}</textarea>
 	</form>
 
 	<form id="userbaseform">
-    	<textarea cols="30" rows="4" id="userbasetext1">{{ ux2data.userbasetext1 }}</textarea>
+    	<textarea cols="30" rows="4" id="userbasetext4">{{ ux2data.userbasetext4 }}</textarea>
 	</form>
 
-    <button class="btn btn-primary btn-primary-active" onclick="showNewSection()">Continue</button>
+    <button class="btn btn-primary btn-primary-active" id="button-cnt3" onclick="showPage(3)">Continue</button>
 </div>
 
-<div id="new-section">
+<div class="hidden-cnt" id="hidden-cnt3">
+    <hr>
     <h4>Observe</h4>
 
     <p>
@@ -68,11 +71,11 @@
     <p>Jot down your observations below.</p>
 
     <form id="userbaseform">
-    	<textarea cols="30" rows="12" id="userbasetext1">{{ ux2data.userbasetext1 }}</textarea>
+    	<textarea cols="30" rows="12" id="userbasetext5">{{ ux2data.userbasetext5 }}</textarea>
 	</form>
 	
     <a href="page0" class="btn btn-primary btn-primary-active">Previous Step</a>
-	<button class="btn btn-primary btn-primary-active" onclick='upData("userbasetext", 1, "page2")'>Next Step</button>
+	<button class="btn btn-primary btn-primary-active" onclick='upData("userbasetext", 5, "page2")'>Next Step</button>
 </div>
 
 

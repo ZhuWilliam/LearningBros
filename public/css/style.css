@@ -74,9 +74,15 @@ div.progress {
     padding-right: 5%;
 }
 
-#hidden-info {
+/* for the hints */
+div.hidden-info {
     display: none;
     font-style: italic;
+}
+
+/* for the expanding page with more text boxes */
+div.hidden-cnt {
+    display: none;
 }
 
 a.btn-b {
