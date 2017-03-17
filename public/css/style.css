@@ -179,6 +179,11 @@ a.btn-b {
 .menuButton {
     display: inline-block;
     cursor: pointer;
+    position:absolute;
+    padding-top:20px;
+    margin-top:-0.2em;
+    left: 25px;
+/*    position:absolute; top:17; left:10; */
 }
 
 .appName {
