@@ -10,8 +10,9 @@ exports.view = function(req, res){
     var number = req.params.number;
     if (number) {
         var ddata = {ux2data: ux2data};
+        ddata['isNotIndexPage'] = true;
         if (number === "0" || number === "0_b") {
-            ddata['containTrackCode'] = true;
+            ddata['isNotIndexPage'] = false;
         }
         if (number === "0") {
             ddata['isOrigPageZero'] = true;
@@ -25,7 +26,7 @@ exports.view = function(req, res){
 
 exports.login = function(req, res){
     if (req.body.username === 'test' && req.body.passwd === 'test') {
-        res.redirect('page0')
+        res.redirect('page0');
     } else {
         res.render('index', {failLogin: true});
     }
