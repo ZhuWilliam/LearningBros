@@ -51,6 +51,8 @@ function closeNav() {
 
 /***************************************************************************/
 
+
+/*************** Google Analytics ****************/
 function A_begin() {
     ga("send", "event", "buttonClick", "A_clickBegin");
     console.log("A_begin");
@@ -75,4 +77,9 @@ function B_start() {
     ga("send", "event", "buttonClick", "B_clickStart");
     console.log("B_start");
     return true;
+}
+/*************************************************/
+
+function showMenu() {
+    openNav();
 }
